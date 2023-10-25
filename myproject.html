@@ -1,0 +1,76 @@
+<html>
+<head>
+       <title>Crypto Currency</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="myproject.css">
+      		
+</head>
+<body>
+       <div class="container">
+        <div class="menu">
+          <ul>
+              <li class="logo"><img src="mks logo.jpg"></li>
+              <li class="active">Home</li>
+              <li class="active">Services</li>
+              <li class="active">Product</li>
+              <li class="active">Contact</li>
+              <i class="fa fa-person"></i>
+              <li><a href="#" class="signup-btn"><span>Sign up</span></a></li>
+
+           </ul>
+        </div>
+        <div class="banner">
+           <div class="app-text">
+              <h1>Our besic thesis for bitcoin <br> is that it is better than gold.</h1>
+              <p>Countrary to popular belief, Lorem Ipsum is not simply
+              random <br> text. It has roots in a piece of classical Latin
+              litrature from 45 BC, <br> making it over 2000 years old</p>
+              <div class="play-btn">
+	   <div class="play-btn-inner">
+                     <i class="fa fa-play"></i>
+                     </div>
+	   <small><b>Learn more</b></small>
+              </div>
+           </div>
+            <div class="app-picture">
+	<br><br><br><br>
+              <img src="bitcoin.jpg">
+            </div>
+        </div>
+         <div class="quick-links">
+         <ul>
+         <li><i class="fa fa-share-alt"></i><p>SHARE TO</p></li>
+         <li><i class="fa fa-audio-description"></i><p>RECENT NEWS</p></li>
+         <li><i class="fa fa-cog"></i><p>ANALYTICS</p></li>
+         <li><i class="fa fa-btc"></i><p>WALLET</p></li>
+         </ul>
+         </div>
+         <div class="social-icons">
+	<p>&nbsp;</p>
+            <ul>
+                   <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                   <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+           </ul>
+         </div>
+    </div>
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+         anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            if(targetElement) {
+               window.scrollTo({
+                  top: targetElement.offsetTop,
+                  behaviour: 'smooth'
+               });
+            });
+         });
+      });
+    </script>
+</body>
+</html>
